@@ -1,20 +1,18 @@
 package MainPackage.Beans;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.hibernate.annotations.Proxy;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
-@Proxy(lazy = false)
 @IdClass(UserAdditionalInfosPK.class)
-public class UserAdditionalInfos implements Serializable {
+public class UserAdditionalInfos {
     private int id;
     private String userId;
     private int infoId;
     private String infoContent;
     private AppUser appUserByUserId;
+    private UserInfo userInfoByInfoId;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -82,13 +80,24 @@ public class UserAdditionalInfos implements Serializable {
     }
 
     @JsonIgnore
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "userId", referencedColumnName = "username", nullable = false, insertable=false, updatable = false)
+    @ManyToOne
+    @JoinColumn(name = "userId", referencedColumnName = "username", nullable = false, insertable = false, updatable = false)
     public AppUser getAppUserByUserId() {
         return appUserByUserId;
     }
 
     public void setAppUserByUserId(AppUser appUserByUserId) {
         this.appUserByUserId = appUserByUserId;
+    }
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "infoId", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
+    public UserInfo getUserInfoByInfoId() {
+        return userInfoByInfoId;
+    }
+
+    public void setUserInfoByInfoId(UserInfo userInfoByInfoId) {
+        this.userInfoByInfoId = userInfoByInfoId;
     }
 }

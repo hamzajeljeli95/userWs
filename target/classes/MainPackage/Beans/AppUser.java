@@ -1,17 +1,21 @@
 package MainPackage.Beans;
 
-import org.hibernate.annotations.Proxy;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.*;
-import java.io.Serializable;
+import java.util.Collection;
 
 @Entity
-@Proxy(lazy = false)
-public class AppUser implements Serializable {
+public class AppUser {
     private String username;
     private String passwordHash;
     private int isConfirmed;
     private int profile;
+    private Collection<Event> eventsByUsername;
+    private Collection<EventComments> eventCommentsByUsername;
+    private Collection<EventParticipants> eventParticipantsByUsername;
+    private Collection<UserAdditionalInfos> userAdditionalInfosByUsername;
 
     @Id
     @Column(name = "username", nullable = false, length = 64)
@@ -76,5 +80,45 @@ public class AppUser implements Serializable {
         result = 31 * result + isConfirmed;
         result = 31 * result + profile;
         return result;
+    }
+
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "appUserByOrganizerId")
+    public Collection<Event> getEventsByUsername() {
+        return eventsByUsername;
+    }
+
+    public void setEventsByUsername(Collection<Event> eventsByUsername) {
+        this.eventsByUsername = eventsByUsername;
+    }
+
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "appUserByIdUser")
+    public Collection<EventComments> getEventCommentsByUsername() {
+        return eventCommentsByUsername;
+    }
+
+    public void setEventCommentsByUsername(Collection<EventComments> eventCommentsByUsername) {
+        this.eventCommentsByUsername = eventCommentsByUsername;
+    }
+
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "appUserByParticipantId")
+    public Collection<EventParticipants> getEventParticipantsByUsername() {
+        return eventParticipantsByUsername;
+    }
+
+    public void setEventParticipantsByUsername(Collection<EventParticipants> eventParticipantsByUsername) {
+        this.eventParticipantsByUsername = eventParticipantsByUsername;
+    }
+
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "appUserByUserId")
+    public Collection<UserAdditionalInfos> getUserAdditionalInfosByUsername() {
+        return userAdditionalInfosByUsername;
+    }
+
+    public void setUserAdditionalInfosByUsername(Collection<UserAdditionalInfos> userAdditionalInfosByUsername) {
+        this.userAdditionalInfosByUsername = userAdditionalInfosByUsername;
     }
 }
