@@ -9,13 +9,13 @@
     <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
     <property name="hibernate.connection.username">sa</property>
     <property name="hibernate.connection.password">21545049H@m</property>
-    <mapping class="MainPackage.Beans.AppUser"/>
-    <mapping class="MainPackage.Beans.UserAdditionalInfos"/>
-    <mapping class="MainPackage.Beans.UserInfo"/>
-    <!--<mapping class="MainPackage.Beans.Event"/>
-    <mapping class="MainPackage.Beans.EventAdditionalInfos"/>
-    <mapping class="MainPackage.Beans.EventComments"/>
-    <mapping class="MainPackage.Beans.EventInfo"/>
-    <mapping class="MainPackage.Beans.EventParticipants"/>-->
+      <mapping class="MainPackage.Beans.Event"/>
+      <mapping class="MainPackage.Beans.EventAdditionalInfos"/>
+      <mapping class="MainPackage.Beans.EventComments"/>
+      <mapping class="MainPackage.Beans.EventInfo"/>
+      <mapping class="MainPackage.Beans.EventParticipants"/>
+      <mapping class="MainPackage.Beans.AppUser"/>
+      <mapping class="MainPackage.Beans.UserAdditionalInfos"/>
+      <mapping class="MainPackage.Beans.UserInfo"/>
   </session-factory>
 </hibernate-configuration>

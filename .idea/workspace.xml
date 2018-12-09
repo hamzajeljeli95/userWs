@@ -2,40 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a1649e9-82d5-4299-b2c3-2247ed57095c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipantsPK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/AppUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfosPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserAdditionalInfosController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/GenericDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserAdditionalInfosDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserInfoDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserInfoDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserAdditionalInfosService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Starter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userws.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/AppUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/AppUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,68 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipantsPK.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfosPK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -166,9 +91,9 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Starter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfosPK.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -276,7 +201,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eventsWebServices" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -407,12 +332,12 @@
       <workItem from="1543824423023" duration="6664000" />
       <workItem from="1543847959079" duration="2399000" />
       <workItem from="1543929641374" duration="3962000" />
-      <workItem from="1544351722935" duration="816000" />
+      <workItem from="1544351722935" duration="2013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28533000" />
+    <option name="totallyTimeSpent" value="29730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,22 +350,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1285" y="-232" width="1290" height="1004" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7808219" visible="true" weight="0.30582523" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.779661" visible="true" weight="0.30582523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.21917808" side_tool="true" visible="true" weight="0.30582523" />
+      <window_info id="Persistence" order="3" sideWeight="0.22033899" side_tool="true" visible="true" weight="0.30582523" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4173318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4173318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.28552458" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.327252" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2850627" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.327252" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.327252" />
@@ -598,23 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -664,7 +573,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>

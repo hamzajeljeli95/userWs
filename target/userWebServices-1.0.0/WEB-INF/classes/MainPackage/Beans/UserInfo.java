@@ -1,15 +1,16 @@
 package MainPackage.Beans;
 
-import org.hibernate.annotations.Proxy;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.*;
-import java.io.Serializable;
+import java.util.Collection;
 
 @Entity
-@Proxy(lazy = false)
-public class UserInfo implements Serializable {
+public class UserInfo {
     private int id;
     private String infoType;
+    private Collection<UserAdditionalInfos> userAdditionalInfosById;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -50,5 +51,15 @@ public class UserInfo implements Serializable {
         int result = id;
         result = 31 * result + (infoType != null ? infoType.hashCode() : 0);
         return result;
+    }
+
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "userInfoByInfoId")
+    public Collection<UserAdditionalInfos> getUserAdditionalInfosById() {
+        return userAdditionalInfosById;
+    }
+
+    public void setUserAdditionalInfosById(Collection<UserAdditionalInfos> userAdditionalInfosById) {
+        this.userAdditionalInfosById = userAdditionalInfosById;
     }
 }
